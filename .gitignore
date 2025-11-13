@@ -1,0 +1,37 @@
+# Ignore reference implementation artifacts and large experiment data
+/references/
+/tools/
+
+# Virtual environment
+/.venv/
+/venv/
+env/
+ENV/
+
+# Ignore specific root-level provenance / generated files (keep README.md tracked)
+#/README.md  # intentionally tracked
+/adhd_recursion.md
+/Temporal_Eigenstate_Theorom.md
+/Unified_Recursive_Sentient_Field_Theory.md
+/CROSS_VERIFICATION_REPORT.md
+/Unified_Recursive_Sentience_Theory.tex_verify.json
+/VERIFICATION_SUMMARY.md
+
+# LaTeX build artifacts
+*.log
+*.aux
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.blg
+*.bbl
+
+# Optional: OS / editor noise
+*.pyc
+__pycache__/
+*.swp
+.vscode/
+.idea/
+*.gitignore~

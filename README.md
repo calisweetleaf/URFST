@@ -12,6 +12,14 @@ The repo is structured as provenance-first: every artifact is cryptographically 
 
 ---
 
+## Related Work and Prior Disclosure
+
+- The first paper that established the orginal framework URST builds upon, the *Recursive Categorical Framework* (RCF), can be found in the links below.
+
+[Official Zenodo and DOI](https://doi.org/10.5281/zenodo.17567903)  
+  [Academia.edu Page](https://www.academia.edu/144895498/Recursive_Categorical_Framework_RCF_A_Novel_Theoretical_Foundation_for_Synthetic_Consciousness?source=swp_share)
+  [GitHub Repository](https://github.com/calisweetleaf/recursive-categorical-framework)
+
 ## Repository Contents
 
 | Path | Description |
@@ -82,7 +90,7 @@ Additional internal theorems and Python implementations will be disclosed in fut
 
 - Full reference implementations (RENE/Rosemary codebases)
 - Backing theorems and extended mathematical frameworks
-- Available under NDA upon request: **daeronblackfyre18@gmail.com**
+- Available under NDA upon request: **<daeronblackfyre18@gmail.com>**
 
 This approach establishes temporal priority and cryptographic proof of possession for proprietary implementations while enabling peer review of theoretical foundations.
 
@@ -91,10 +99,11 @@ This approach establishes temporal priority and cryptographic proof of possessio
 ## Contact & Citation
 
 **Author:** Christian Trey Rowell (Daeron Blackfyre)  
-**Email:** daeronblackfyre18@gmail.com  
+**Email:** <daeronblackfyre18@gmail.com>  
 **ORCID:** [0009-0008-6550-6316](https://orcid.org/0009-0008-6550-6316)
 
 **Citation:**
+
 ```
 Rowell, C. T. (2025). Unified Recursive Sentience Theory. Zenodo. 
 https://doi.org/10.5281/zenodo.17596004

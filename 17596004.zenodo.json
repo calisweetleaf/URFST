@@ -336,5 +336,12 @@
     "index": 1,
     "is_latest": true,
     "is_latest_draft": true
-  }
+  },
+  "related_identifiers": [
+    {
+      "scheme": "doi",
+      "identifier": "10.5281/ZENODO.17567903",
+      "relation": "isSupplementTo"
+    }
+  ]
 }

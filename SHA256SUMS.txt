@@ -1,11 +1,12 @@
 # Hash Manifest v1.0
 # Algorithm: SHA256
-# Generated: 2025-11-14T04:05:05.9013645Z
-# Git Commit: c01b7b4fc0bc36447e3ffc4b408fc30f9780fa04
-# Git Tag: N/A
+# Generated: 2025-11-14T05:41:41.0101554Z
+# Git Commit: 921a4770d7db5fac51355a2ac1a01e724a90dfa3
+# Git Tag: v1.0.0
 # Tool: hash-index.ps1
 #
-91bdabba6cd91d7d694effdf051f6c8c68f5df52b311baac63ffecf92d3cfb26  17596004.zenodo.json
+b6a41dc92916d926d9b328481ef3eb8512a0f41e5f757dc25b92f8bac9de3b46  11-13-2025.zip
+4e521156bfae33595e40c3a4ac25a8deecc53395b9bd4d2775a6ce1dd4c808bb  17596004.zenodo.json
 dbdce0f93b1e0b721c2f23ec7d1e2688edb620bde7371b3dba01b2e2d90e941c  adhd_recursion.md
 1bd8aac4c40d01519d6226cb0fd911079ef0b5c36d775b2e4b1b85bf2740bc84  CROSS_VERIFICATION_REPORT.md
 37aabee43ae473f5913b31ced5f9b9171862a6c44a96e09e08bc2689aa2dee33  doi.txt
@@ -26,7 +27,7 @@ e0d2237fa9be18c8531f89ac20b8b7713ef30149efe92bb04039a330df60e1c6  GPG_PUBLIC_KEY
 e6fb661a8d22775cd8893f17b5b6bc6248ed294ca30e5edc218c4e3d2cda43af  hash-index.ps1
 f7f28b8c7a1af76b9874ca6d040e8b1eb6768fd1043106c9d315090ea96754e7  LICENSE
 a8dca7e24638b20898a03238594600ba9d30359482d86c21f8e9b4aa285e1bbf  PROVENENCE.md
-a7355538e3f6d9b02db7e030bf34de28f19a7f52fbfd54242ca77a7120723af6  README.md
+bfbe3644bc96c927d7ca723b2a9ed6f3146842b4eca90ae0d65499f056777706  README.md
 81b4b8e5e2b6420552aa8e57993f4f8c919278add6d4d0e01e714d5ceb57cb24  references\code\harmonic_breath_field.py
 7cdf2a1ecdda630c1e6cea85fb3fe675eb92321583df0a8065ca0ad0323de12a  references\code\rene\complete_biodigital.py
 52bdb664ed4a71abc8c7afefb8dca27ff16ff466938f296aedc4598e59d94634  references\code\rosemary\biodigital_brain_node.py

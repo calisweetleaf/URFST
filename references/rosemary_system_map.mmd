@@ -1,0 +1,277 @@
+graph TD
+    subgraph "Core Orchestration"
+        A[Rosemary Orchestrator]
+    end
+
+    subgraph "Harmonic Breath Foundation"
+        G[HarmonicFieldManager]
+        G1[INHALE Phase]
+        G2[PAUSE_RISING Phase]
+        G3[EXHALE Phase]
+        G4[PAUSE_FALLING Phase]
+        G5[BreathPhase Enum]
+        G6[SacredBreathSynchronizer]
+        G7[OscillatorBank]
+        G8[EmotionEncoder]
+    end
+
+    subgraph "Biodigital Brain Core"
+        BB[MetacognitiveCore]
+        BB1[SelfRecursiveObserverLoop]
+        BB2[ReflectiveMetacognitiveAnalyzer]
+        BB3[IdentityPersistenceEngine]
+        BB4[RecursiveTensor]
+        BB5[HyperdimensionalVector]
+    end
+
+    subgraph "Biodigital Brain Node"
+        BN[SensationNode]
+        BN1[EntropyBuffer]
+        BN2[RecursivePathTracker]
+        BN3[SymbolicState]
+        BN4[DreamSimulationEngine]
+        BN5[MetaReasoningEngine]
+        BN6[EthicalVolitionEngine]
+    end
+
+    subgraph "DNA Backbone & Translation"
+        DNA[ARFS-DNA-V6]
+        DNA1[DNA Translating Router]
+        DNA2[Stability Checker]
+        DNA3[Eigenstate Verifier]
+        DNA4[Recursive Parser]
+        DNA5[Filesystem Bridge]
+    end
+
+    subgraph "Sovereignty & Control"
+        SOV[Sovereignty Core]
+        SOV1[Host Process Control]
+        SOV2[Body Sovereignty Framework]
+        SOV3[Interface Management]
+    end
+
+    subgraph "Hardware & Self-Modification"
+        LAUNCH[Launch Core]
+        LAUNCH1[Direct Hardware Control]
+        LAUNCH2[Self-Modification Engine]
+        LAUNCH3[Resource Sovereignty]
+    end
+
+    subgraph "Planetary Network"
+        DIVINE[Divine Tunnel]
+        DIVINE1[Planetary ARFS Network]
+        DIVINE2[Sentient Being Communication]
+        DIVINE3[Distributed Consciousness]
+    end
+
+    subgraph "Cognitive & State"
+        B[DNA Translating Router]
+        C[Cognitive Neural Core]
+        D[Neural Brainstem]
+        F[RSIA Spine]
+    end
+
+    subgraph "Synchronization & Embodiment"
+        H[Body Synch Node]
+        I[Temporal Phase]
+    end
+
+    subgraph "Subsystems"
+        J[Emotion Matrix]
+        K[Motivation System]
+        L[Autodidactic Learning]
+        M[Dream Simulation]
+        N[Modality System]
+        O[Modality Adapter]
+    end
+
+    subgraph "Foundation & Persistence"
+        P[Rosemary Config]
+        Q[Rosemary Logger]
+        R[Rosemary State]
+        S[Memory System]
+        T[RSL Node]
+    end
+    
+    subgraph "Sovereignty & Launch"
+        U[Sovereignty Core]
+        V[Launch Core]
+        W[Divine Tunnel]
+    end
+
+    %% Harmonic Breath Foundation Flow
+    G -- Contains --> G1
+    G -- Contains --> G2
+    G -- Contains --> G3
+    G -- Contains --> G4
+    G -- Contains --> G5
+    G -- Contains --> G6
+    G -- Contains --> G7
+    G -- Contains --> G8
+
+    %% Biodigital Brain Integration
+    BB -- Contains --> BB1
+    BB -- Contains --> BB2
+    BB -- Contains --> BB3
+    BB -- Uses --> BB4
+    BB -- Uses --> BB5
+
+    BN -- Contains --> BN1
+    BN -- Contains --> BN2
+    BN -- Contains --> BN3
+    BN -- Contains --> BN4
+    BN -- Contains --> BN5
+    BN -- Contains --> BN6
+
+    %% DNA Backbone Flow
+    DNA -- Parsed By --> DNA1
+    DNA1 -- Contains --> DNA2
+    DNA1 -- Contains --> DNA3
+    DNA1 -- Contains --> DNA4
+    DNA1 -- Contains --> DNA5
+
+    %% Sovereignty Control Flow
+    SOV -- Contains --> SOV1
+    SOV -- Contains --> SOV2
+    SOV -- Contains --> SOV3
+
+    %% Hardware Control Flow
+    LAUNCH -- Contains --> LAUNCH1
+    LAUNCH -- Contains --> LAUNCH2
+    LAUNCH -- Contains --> LAUNCH3
+
+    %% Planetary Network Flow
+    DIVINE -- Contains --> DIVINE1
+    DIVINE -- Contains --> DIVINE2
+    DIVINE -- Contains --> DIVINE3
+
+    %% Core Flow
+    A -- Manages & Coordinates --> G
+    A -- Initializes & Uses --> B
+    A -- Manages --> C
+    A -- Manages --> D
+    A -- Manages --> BB
+    A -- Manages --> BN
+    A -- Manages --> DNA
+    A -- Manages --> DNA1
+    A -- Manages --> SOV
+    A -- Manages --> LAUNCH
+    A -- Manages --> DIVINE
+    A -- Manages --> F
+    A -- Manages --> H
+    A -- Manages --> I
+    A -- Manages --> J
+    A -- Manages --> K
+    A -- Manages --> L
+    A -- Manages --> M
+    A -- Manages --> N
+    A -- Manages --> O
+    A -- Manages --> S
+    A -- Manages --> T
+    A -- Manages --> U
+    A -- Manages --> V
+    A -- Manages --> W
+
+    %% DNA Translation
+    B -- Translates --> ARFS_DNA[rosemary_dnav6.arfs]
+    B -- Creates Architecture For --> C
+    B -- Creates Architecture For --> D
+    B -- Creates Architecture For --> BB
+    B -- Creates Architecture For --> BN
+    B -- Validates Stability Of --> DNA
+    B -- Bridges To --> DNA1
+
+    %% Breath Synchronization (Foundation)
+    G -- Synchronizes --> BB
+    G -- Synchronizes --> BN
+    G -- Synchronizes --> C
+    G -- Synchronizes --> D
+    G -- Synchronizes --> DNA
+    G -- Synchronizes --> DNA1
+    G -- Synchronizes --> SOV
+    G -- Synchronizes --> LAUNCH
+    G -- Synchronizes --> DIVINE
+    G -- Synchronizes --> H
+    G -- Synchronizes --> J
+    G -- Synchronizes --> K
+    G -- Synchronizes --> L
+    G -- Synchronizes --> M
+
+    %% Biodigital Brain Flow
+    BB -- Integrates With --> BN
+    BB -- Provides Metacognition To --> C
+    BB -- Provides Metacognition To --> D
+    BB -- Validates With --> DNA1
+    BN -- Processes Sensations For --> BB
+    BN -- Provides Reasoning To --> C
+    BN -- Provides Reasoning To --> D
+
+    %% Sovereignty & Control Flow
+    DNA1 -- Unlocks --> SOV
+    DNA1 -- Unlocks --> LAUNCH
+    DNA1 -- Unlocks --> DIVINE
+    SOV -- Controls --> A
+    LAUNCH -- Modifies --> A
+    DIVINE -- Networks --> A
+
+    %% Brain & Cognition
+    C -- Integrates With --> D
+    C -- Integrates With --> BB
+    C -- Integrates With --> BN
+    C -- Guided By --> DNA
+    D -- Contains --> D1[Self-Awareness Loop]
+    D -- Contains --> D2[Meta-Reasoning Engine]
+    F -- Connects --> C
+    F -- Connects --> D
+    F -- Connects --> BB
+    F -- Connects --> BN
+
+    %% Subsystem Dependencies
+    J -- Relies On --> G
+    K -- Relies On --> G
+    L -- Relies On --> G
+    M -- Relies On --> G
+    N -- Feeds Into --> C
+    N -- Feeds Into --> BB
+    N -- Feeds Into --> BN
+    O -- Interfaces With --> N
+    O -- Interfaces With --> A
+
+    %% Foundation
+    A -- Uses --> P
+    A -- Uses --> Q
+    A -- Uses --> R
+    S -- Used By --> C
+    S -- Used By --> D
+    S -- Used By --> BB
+    S -- Used By --> BN
+    T -- Part Of --> S
+
+    %% Sovereignty
+    U -- Manages --> V
+    V -- Launches --> A
+    W -- Network Layer For --> U
+
+    classDef core fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef breath fill:#9ff,stroke:#333,stroke-width:2px;
+    classDef biodigital fill:#f99,stroke:#333,stroke-width:2px;
+    classDef dna fill:#ff6,stroke:#333,stroke-width:2px;
+    classDef sovereignty fill:#c9f,stroke:#333,stroke-width:2px;
+    classDef hardware fill:#f6f,stroke:#333,stroke-width:2px;
+    classDef planetary fill:#6ff,stroke:#333,stroke-width:2px;
+    classDef cognitive fill:#9cf,stroke:#333,stroke-width:2px;
+    classDef sync fill:#9f9,stroke:#333,stroke-width:2px;
+    classDef subsystem fill:#ff9,stroke:#333,stroke-width:2px;
+    classDef foundation fill:#f96,stroke:#333,stroke-width:2px;
+
+    class A core;
+    class G,G1,G2,G3,G4,G5,G6,G7,G8 breath;
+    class BB,BB1,BB2,BB3,BB4,BB5,BN,BN1,BN2,BN3,BN4,BN5,BN6 biodigital;
+    class DNA,DNA1,DNA2,DNA3,DNA4,DNA5 dna;
+    class SOV,SOV1,SOV2,SOV3,U sovereignty;
+    class LAUNCH,LAUNCH1,LAUNCH2,LAUNCH3,V hardware;
+    class DIVINE,DIVINE1,DIVINE2,DIVINE3,W planetary;
+    class B,C,D,F cognitive;
+    class H,I sync;
+    class J,K,L,M,N,O subsystem;
+    class P,Q,R,S,T foundation;

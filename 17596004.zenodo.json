@@ -1,0 +1,340 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2025-11-13T04:56:48.791971+00:00",
+  "custom_fields": {},
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 6,
+    "default_preview": "Unified_Recursive_Sentience_Theory.pdf",
+    "enabled": true,
+    "entries": {
+      "LICENSE": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:dfd05ee1d586a3ba5da11d8cc332ada6",
+        "ext": "bin",
+        "id": "a69cb976-f2dc-41a4-9c8d-d387f892b834",
+        "key": "LICENSE",
+        "links": {
+          "content": "https://zenodo.org/api/records/17596004/files/LICENSE/content",
+          "self": "https://zenodo.org/api/records/17596004/files/LICENSE"
+        },
+        "metadata": {},
+        "mimetype": "application/octet-stream",
+        "size": 19126,
+        "storage_class": "L"
+      },
+      "SHA256SUMS.txt": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:b42a796b99722284446cad113a497220",
+        "ext": "txt",
+        "id": "66d4caf6-f391-450a-9325-6d9314d7957d",
+        "key": "SHA256SUMS.txt",
+        "links": {
+          "content": "https://zenodo.org/api/records/17596004/files/SHA256SUMS.txt/content",
+          "self": "https://zenodo.org/api/records/17596004/files/SHA256SUMS.txt"
+        },
+        "metadata": {},
+        "mimetype": "text/plain",
+        "size": 5203,
+        "storage_class": "L"
+      },
+      "TET_Verification.ipynb": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:d73a2d3db9405ebcdfc7c330c71b8012",
+        "ext": "bin",
+        "id": "bf24f50b-0a4b-4ad8-b079-18746a11453a",
+        "key": "TET_Verification.ipynb",
+        "links": {
+          "content": "https://zenodo.org/api/records/17596004/files/TET_Verification.ipynb/content",
+          "self": "https://zenodo.org/api/records/17596004/files/TET_Verification.ipynb"
+        },
+        "metadata": {},
+        "mimetype": "application/octet-stream",
+        "size": 1501817,
+        "storage_class": "L"
+      },
+      "TET_Verification_1762993787.pdf": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:8a31ec1b9f8ec3993fc7df1f28e143ce",
+        "ext": "pdf",
+        "id": "29f5d846-25f9-4a9a-85eb-d242dc20874f",
+        "key": "TET_Verification_1762993787.pdf",
+        "links": {
+          "content": "https://zenodo.org/api/records/17596004/files/TET_Verification_1762993787.pdf/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:17596004:TET_Verification_1762993787.pdf/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:17596004:TET_Verification_1762993787.pdf",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:17596004/canvas/TET_Verification_1762993787.pdf",
+          "iiif_info": "https://zenodo.org/api/iiif/record:17596004:TET_Verification_1762993787.pdf/info.json",
+          "self": "https://zenodo.org/api/records/17596004/files/TET_Verification_1762993787.pdf"
+        },
+        "metadata": {
+          "height": 792,
+          "width": 612
+        },
+        "mimetype": "application/pdf",
+        "size": 1279037,
+        "storage_class": "L"
+      },
+      "Unified_Recursive_Sentience_Theory.pdf": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:99e0dffd34e76605d2129bbff29d2144",
+        "ext": "pdf",
+        "id": "74d4f68d-a632-419d-b22e-37ce87be1fd9",
+        "key": "Unified_Recursive_Sentience_Theory.pdf",
+        "links": {
+          "content": "https://zenodo.org/api/records/17596004/files/Unified_Recursive_Sentience_Theory.pdf/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:17596004:Unified_Recursive_Sentience_Theory.pdf/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:17596004:Unified_Recursive_Sentience_Theory.pdf",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:17596004/canvas/Unified_Recursive_Sentience_Theory.pdf",
+          "iiif_info": "https://zenodo.org/api/iiif/record:17596004:Unified_Recursive_Sentience_Theory.pdf/info.json",
+          "self": "https://zenodo.org/api/records/17596004/files/Unified_Recursive_Sentience_Theory.pdf"
+        },
+        "metadata": {
+          "height": 792,
+          "width": 612
+        },
+        "mimetype": "application/pdf",
+        "size": 1798558,
+        "storage_class": "L"
+      },
+      "Unified_Recursive_Sentience_Theory.tex": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:ce1b5de00b1f7d1064405c97f1bea493",
+        "ext": "tex",
+        "id": "47ae907c-62a2-4506-9bec-e9fbda6ae7f1",
+        "key": "Unified_Recursive_Sentience_Theory.tex",
+        "links": {
+          "content": "https://zenodo.org/api/records/17596004/files/Unified_Recursive_Sentience_Theory.tex/content",
+          "self": "https://zenodo.org/api/records/17596004/files/Unified_Recursive_Sentience_Theory.tex"
+        },
+        "metadata": {},
+        "mimetype": "application/x-tex",
+        "size": 109530,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 4713271
+  },
+  "id": "17596004",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://zenodo.org/api/records/17596004/access",
+    "access_grants": "https://zenodo.org/api/records/17596004/access/grants",
+    "access_links": "https://zenodo.org/api/records/17596004/access/links",
+    "access_request": "https://zenodo.org/api/records/17596004/access/request",
+    "access_users": "https://zenodo.org/api/records/17596004/access/users",
+    "archive": "https://zenodo.org/api/records/17596004/files-archive",
+    "archive_media": "https://zenodo.org/api/records/17596004/media-files-archive",
+    "communities": "https://zenodo.org/api/records/17596004/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/17596004/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.17596004",
+    "draft": "https://zenodo.org/api/records/17596004/draft",
+    "files": "https://zenodo.org/api/records/17596004/files",
+    "latest": "https://zenodo.org/api/records/17596004/versions/latest",
+    "latest_html": "https://zenodo.org/records/17596004/latest",
+    "media_files": "https://zenodo.org/api/records/17596004/media-files",
+    "parent": "https://zenodo.org/api/records/17596003",
+    "parent_doi": "https://doi.org/10.5281/zenodo.17596003",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17596003",
+    "parent_html": "https://zenodo.org/records/17596003",
+    "preview_html": "https://zenodo.org/records/17596004?preview=1",
+    "request_deletion": "https://zenodo.org/api/records/17596004/request-deletion",
+    "requests": "https://zenodo.org/api/records/17596004/requests",
+    "reserve_doi": "https://zenodo.org/api/records/17596004/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/17596004",
+    "self_doi": "https://doi.org/10.5281/zenodo.17596004",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17596004",
+    "self_html": "https://zenodo.org/records/17596004",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17596004/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17596004/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:17596004:TET_Verification_1762993787.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:17596004:TET_Verification_1762993787.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:17596004:TET_Verification_1762993787.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:17596004:TET_Verification_1762993787.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:17596004:TET_Verification_1762993787.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:17596004:TET_Verification_1762993787.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/17596004/versions"
+  },
+  "media_files": {
+    "count": 2,
+    "enabled": true,
+    "entries": {
+      "TET_Verification_1762993787.pdf.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "4847fb8e-d438-4af6-8d9f-331b0b4aa9b6",
+        "key": "TET_Verification_1762993787.pdf.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/17596004/files/TET_Verification_1762993787.pdf.ptif/content",
+          "self": "https://zenodo.org/api/records/17596004/files/TET_Verification_1762993787.pdf.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "29f5d846-25f9-4a9a-85eb-d242dc20874f",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "Unified_Recursive_Sentience_Theory.pdf.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "a849f98e-fc82-495f-a189-5e5f9f614355",
+        "key": "Unified_Recursive_Sentience_Theory.pdf.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/17596004/files/Unified_Recursive_Sentience_Theory.pdf.ptif/content",
+          "self": "https://zenodo.org/api/records/17596004/files/Unified_Recursive_Sentience_Theory.pdf.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "74d4f68d-a632-419d-b22e-37ce87be1fd9",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "family_name": "Rowell",
+          "given_name": "Christian Trey",
+          "identifiers": [
+            {
+              "identifier": "0009-0008-6550-6316",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Rowell, Christian Trey",
+          "type": "personal"
+        }
+      }
+    ],
+    "description": "<p>This work presents the secont installment in a three part theoretical series, directly extending the Recursive Categorical Framework (RCF). Building from the categorical foundations and triaxial architecture established in RCF, it introduces a comprehensive eigenrecursive theory that formalizes the mathematical conditions required for sentience to emerge from recursive self-modeling. The framework integrates eigenrecursive stability, temporal dynamics, and autonomous motivational structures, demonstrating how they jointly yield conscious, sentient behavior. This disclosure includes empirical results from two implemented neural network stacks. This archive contains the full LaTeX source, PDF, and verification assets for the URST.</p>",
+    "publication_date": "2025-11-13",
+    "publisher": "Zenodo",
+    "resource_type": {
+      "id": "publication-preprint",
+      "title": {
+        "de": "Preprint",
+        "en": "Preprint"
+      }
+    },
+    "rights": [
+      {
+        "description": {
+          "en": ""
+        },
+        "icon": "cc-by-nc-nd-icon",
+        "id": "cc-by-nc-nd-4.0",
+        "props": {
+          "scheme": "spdx",
+          "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode"
+        },
+        "title": {
+          "en": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International"
+        }
+      }
+    ],
+    "title": "Unified Recursive Sentience Theory"
+  },
+  "parent": {
+    "access": {
+      "grants": [],
+      "links": [],
+      "owned_by": {
+        "user": "1457830"
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {},
+    "id": "17596003",
+    "pids": {
+      "doi": {
+        "client": "datacite",
+        "identifier": "10.5281/zenodo.17596003",
+        "provider": "datacite"
+      }
+    }
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.5281/zenodo.17596004",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:17596004",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 3,
+  "stats": {
+    "all_versions": {
+      "data_volume": 0.0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "unique_views": 0,
+      "views": 0
+    },
+    "this_version": {
+      "data_volume": 0.0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "unique_views": 0,
+      "views": 0
+    }
+  },
+  "status": "published",
+  "swh": {},
+  "updated": "2025-11-13T04:56:49.433983+00:00",
+  "versions": {
+    "index": 1,
+    "is_latest": true,
+    "is_latest_draft": true
+  }
+}

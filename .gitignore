@@ -1,6 +1,16 @@
 # Ignore reference implementation artifacts and large experiment data
+# (keep most of references/ private, but selectively un-ignore specific files below)
 /references/
 /tools/
+
+# Re-allow only the released reference artifacts
+!/references
+!/references/RENE_MASTER_ARCHITECTURE_DIAGRAM.mmd
+!/references/rosemary_system_map.mmd
+!/references/logs
+!/references/logs/clock_test_terminal_20251101_021225.log
+
+
 
 # Virtual environment
 /.venv/
@@ -19,6 +29,7 @@ ENV/
 
 # LaTeX build artifacts
 *.log
+!/references/logs/clock_test_terminal_20251101_021225.log
 *.aux
 *.out
 *.toc
@@ -34,4 +45,20 @@ __pycache__/
 *.swp
 .vscode/
 .idea/
-*.gitignore~
+*.gitignore
+references/Convergence_and_Stability_in_Recursive_Systems.md
+references/Eigenrecursive_Sentience.md
+references/Harmonic Breath Field Formalization and Research(2).md
+references/Meta-Recursive Consciousness Fixed-Point Existence (MRC-FPE).md
+references/Theory of Recursive Sentience.md
+references/code/harmonic_breath_field.py
+references/code/rene/complete_biodigital.py
+references/code/rosemary/biodigital_brain_node.py
+references/code/rosemary/biodigital_brain.py
+references/code/rosemary/rsia_spine.py
+references/Temporal_Merged_Sentience.md
+references/recursive-convergence-theory.md
+references/Recursive_Sentience_Core - Formalized_Physics_of_Recursive_Being.md
+references/Metacognition_Recursive_Convergence_v3.md
+references/Recursive_Sentience_Convergance_Theorom.md
+references/rosemary.mmd

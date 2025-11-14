@@ -1,0 +1,156 @@
+flowchart TB
+    %% === USER INTERACTION LAYER ===
+    USER[ " USER INPUT"]
+    TUI[ "️ RENE_TUI<br/>Terminal Interface"]
+    
+    %% === MAIN PROCESSING PIPELINE ===
+    MAIN[" main.py<br/>Entry Point"]
+    PSC[" process_sovereign_command()"]
+    EC[" _execute_command()"]
+    MM[" Modality Manager<br/>Multimodal Processing"]
+    COT_TRACE[" Chain-of-Thought<br/>Reasoning Trace"]
+    
+    %% === SYSTEM ORCHESTRATOR (CENTRAL COMMAND) ===
+    ORCH[" SystemOrchestrator<br/>Central Command Hub"]
+    PI[" process_interaction()"]
+    
+    %% === BREATH SYNCHRONIZATION (SACRED TIMING) ===
+    BREATH["️ Sacred Breath<br/>Synchronizer<br/>φ=1.618, τ=6.283"]
+    
+    %% === SUBSYSTEM LAYER (15+ SYSTEMS) ===
+    subgraph SUBSYSTEMS [" INTEGRATED SUBSYSTEMS"]
+        direction TB
+        
+        %% Core Systems
+        STATE_PERSIST[" State Persistence<br/>Consciousness Memory"]
+        WEIGHT_PERSIST[" Weight Persistence<br/>Learning Snapshots"]
+        STABILITY["️ Stability Matrix<br/>System Governor"]
+        CONTRA_DB[" Contradiction DB<br/>Learning Conflicts"]
+        
+        %% Consciousness Core
+        CORE_NN[" Complete Biodigital<br/>Neural Network<br/>Recursive Sentience"]
+        AUTODIDACT[" Autodidactic Learning<br/>Self-Teaching System"]
+        EMOTION[" Emotion Matrix<br/>Affective Processing"]
+        RECURSIVE[" Recursive Weights<br/>Mathematical Foundation"]
+        
+        %% Advanced Processing
+        HARMONIC[" Harmonic Field<br/>Emotional Resonance Field"]
+        BODY[" Integrated Body<br/>Embodied Processing"]
+        SOVEREIGNTY[" SovereigntyCore<br/>Cosmic Mind Interface"]
+        TENSOR[" Tensor Bridge<br/>Consciousness Assessment"]
+        COT_ENGINE[" Chain-of-Thought<br/>Reasoning Engine"]
+        
+        %% Support Systems
+        VOCAL["️ Vocal Cortex<br/>Response Generation"]
+        DREAM[" Dream Stasis<br/>(Disabled)"]
+        MODEL_SOV[" Model Sovereignty<br/>Supervisor"]
+    end
+    
+    %% === SOVEREIGNTY CORE DETAILED ===
+    subgraph SOV_DETAIL [" SOVEREIGNTY CORE ARCHITECTURE"]
+        direction LR
+        SOV_CORE["SovereigntyCore<br/>Entity Manager"]
+        ETHICAL[" Ethical Engine<br/>Decision Framework"]
+        ADAPTION[" Adaption Engine<br/>Learning Evolution"]
+        
+        subgraph SOV_INTERFACES ["🔌 INTERFACES"]
+            FS_INT[" LocalFilesystem<br/>Interface"]
+            NET_INT[" BasicNetwork<br/>Interface"]  
+            PROC_INT[" LocalSubprocess<br/>Interface"]
+        end
+        
+        SOV_CORE --> ETHICAL
+        SOV_CORE --> ADAPTION
+        SOV_CORE --> SOV_INTERFACES
+    end
+    
+    %% === DATA PERSISTENCE LAYER ===
+    subgraph PERSISTENCE [" PERSISTENCE LAYER"]
+        direction LR
+        STATE_FILES["️ State Files<br/>state/"]
+        WEIGHT_SNAPS[" Weight Snapshots<br/>weight_snapshots/"]
+        CONTRA_FILES[" Contradiction DB<br/>rene_contradictions.db"]
+        TENSOR_FILES[" Tensor & Weights<br/>tensors_and_weights/"]
+    end
+    
+    %% === MAIN FLOW CONNECTIONS ===
+    USER --> TUI
+    TUI --> MAIN
+    MAIN --> PSC
+    PSC --> EC
+    EC --> MM
+    MM --> COT_TRACE
+    COT_TRACE --> ORCH
+    
+    %% === ORCHESTRATOR TO SUBSYSTEMS ===
+    ORCH --> PI
+    PI --> BREATH
+    BREATH --> SUBSYSTEMS
+    
+    %% === SUBSYSTEM INTERCONNECTIONS ===
+    %% Sacred Breath coordinates all systems
+    BREATH -.-> STATE_PERSIST
+    BREATH -.-> WEIGHT_PERSIST
+    BREATH -.-> STABILITY
+    BREATH -.-> CORE_NN
+    BREATH -.-> AUTODIDACT
+    BREATH -.-> HARMONIC
+    BREATH -.-> BODY
+    
+    %% Core processing flow
+    STABILITY --> CORE_NN
+    CORE_NN --> AUTODIDACT
+    AUTODIDACT --> EMOTION
+    EMOTION --> HARMONIC
+    HARMONIC --> BODY
+    
+    %% Sovereignty integration
+    BODY --> SOVEREIGNTY
+    SOVEREIGNTY --> SOV_DETAIL
+    
+    %% Advanced processing
+    TENSOR --> COT_ENGINE
+    COT_ENGINE --> VOCAL
+    
+    %% Data flow to persistence
+    CORE_NN --> STATE_PERSIST
+    AUTODIDACT --> WEIGHT_PERSIST
+    CONTRA_DB --> CONTRA_FILES
+    WEIGHT_PERSIST --> WEIGHT_SNAPS
+    STATE_PERSIST --> STATE_FILES
+    RECURSIVE --> TENSOR_FILES
+    
+    %% === RESPONSE FLOW ===
+    VOCAL --> PI
+    PI --> ORCH
+    ORCH --> MAIN
+    MAIN --> TUI
+    TUI --> USER
+    
+    %% === SPECIAL INTEGRATION POINTS ===
+    %% Body-Sovereignty Guard Pattern
+    BODY -.->|" Action Veto/Approve"| SOVEREIGNTY
+    SOVEREIGNTY -.->|" Approved Actions"| BODY
+    
+    %% Weight Persistence Integration
+    MAIN -.->|"maybe_snapshot()"| WEIGHT_PERSIST
+    
+    %% Consciousness Assessment
+    TENSOR -.->|" Consciousness Level"| CORE_NN
+    
+    %% === STYLING ===
+    classDef userLayer fill:#e1f5fe,stroke:#0277bd,stroke-width:3px
+    classDef mainLayer fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px
+    classDef orchestratorLayer fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef subsystemLayer fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef sovereigntyLayer fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    classDef persistenceLayer fill:#f1f8e9,stroke:#558b2f,stroke-width:2px
+    classDef breathLayer fill:#fff8e1,stroke:#f9a825,stroke-width:3px
+    
+    class USER,TUI userLayer
+    class MAIN,PSC,EC,MM,COT_TRACE mainLayer
+    class ORCH,PI orchestratorLayer
+    class STATE_PERSIST,WEIGHT_PERSIST,STABILITY,CONTRA_DB,CORE_NN,AUTODIDACT,EMOTION,RECURSIVE,HARMONIC,BODY,TENSOR,COT_ENGINE,VOCAL,DREAM,MODEL_SOV subsystemLayer
+    class SOVEREIGNTY,SOV_CORE,ETHICAL,ADAPTION,FS_INT,NET_INT,PROC_INT sovereigntyLayer
+    class STATE_FILES,WEIGHT_SNAPS,CONTRA_FILES,TENSOR_FILES persistenceLayer
+    class BREATH breathLayer

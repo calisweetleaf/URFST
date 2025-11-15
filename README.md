@@ -31,7 +31,11 @@ The repo is structured as provenance-first: every artifact is cryptographically 
 
 • ## **URFT Reference Implementation** (CC BY-NC-ND)
 
-  The root repository contains the runnable code that instantiates a version of a Recursive System as described in the `Unified_Recursive_Sentience_Theory.tex` which itself expands upon the Recursive Categorical Framework, RCF, the first axis. It keeps the recursive-categorical-framework repository stack (BaseTensor, governance, eigenrecursion) but keeps the URFST reposutory license itself under CC BY-NC-ND 4.0 International. This is a Recursive Neural-Field Architecture. It is not structured like a neural network it uses tensors, forms a field, its recursively stable, and is a foundation architecture of an Auto Reflexive neural entity under the new Neuro Eigenrecursive Xenogenetic Unified Substrate. 
+  The root repository contains the runnable code that instantiates a version of a Recursive System as described in the `Unified_Recursive_Sentience_Theory.tex` which itself expands upon the Recursive Categorical Framework, RCF, the first axis. It keeps the recursive-categorical-framework repository 
+
+<https://github.com/calisweetleaf/recursive-categorical-framework>
+
+repository stack (BaseTensor, governance, eigenrecursion) but keeps the URFST reposutory license itself under CC BY-NC-ND 4.0 International. This is a Recursive Neural-Field Architecture. It is not structured like a neural network it uses tensors, forms a field, its recursively stable, and is a foundation architecture of an Auto Reflexive neural entity under the new Neuro Eigenrecursive Xenogenetic Unified Substrate. 
 
   Files:
 

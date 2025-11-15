@@ -1,0 +1,9 @@
+  numpy
+  torch
+  scipy
+  matplotlib
+  seaborn
+  PyYAML
+  torch
+  torchvision
+  torchaudio

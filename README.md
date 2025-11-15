@@ -12,14 +12,6 @@ The repo is structured as provenance-first: every artifact is cryptographically 
 
 ---
 
-## Related Work and Prior Disclosure
-
-- The first paper that established the orginal framework URST builds upon, the *Recursive Categorical Framework* (RCF), can be found in the links below.
-
-[Official Zenodo and DOI](https://doi.org/10.5281/zenodo.17567903)  
-  [Academia.edu Page](https://www.academia.edu/144895498/Recursive_Categorical_Framework_RCF_A_Novel_Theoretical_Foundation_for_Synthetic_Consciousness?source=swp_share)
-  [GitHub Repository](https://github.com/calisweetleaf/recursive-categorical-framework)
-
 ## Repository Contents
 
 | Path | Description |
@@ -36,6 +28,20 @@ The repo is structured as provenance-first: every artifact is cryptographically 
 | `LICENSE` | CC BY-NC-ND 4.0 International license terms. |
 
 ---
+
+• ## **URFT Reference Implementation** (CC BY-NC-ND)
+
+  The root repository contains the runnable code that instantiates a version of a Recursive System as described in the `Unified_Recursive_Sentience_Theory.tex` which itself expands upon the Recursive Categorical Framework, RCF, the first axis. It keeps the recursive-categorical-framework repository stack (BaseTensor, governance, eigenrecursion) but keeps the URFST reposutory license itself under CC BY-NC-ND 4.0 International. This is a Recursive Neural-Field Architecture. It is not structured like a neural network it uses tensors, forms a field, its recursively stable, and is a foundation architecture of an Auto Reflexive neural entity under the new Neuro Eigenrecursive Xenogenetic Unified Substrate. 
+
+  Files:
+
+- `urft_python_snippet.py` – main driver that generates the depth-wise Γ/Ω/Φ/Θ/Ξ metrics and ARFS-4D readouts.
+- `base_tensor.py`, `eigenrecursion_algorithm.py`, `eigenrecursive_operations.py`, `stability_matrix.py`, `governance_framework.py` – shared public modules the field depends on.
+- `urft_visualizer.py` (optional) – produces the 12 dashboard plots in .png format.
+
+  Dependencies: Python 3.10+, PyTorch, NumPy, Matplotlib/Seaborn (for visuals), PyYAML.
+  run `python -m venv .venv` to create a virtual environment, then `pip install -r requirements.txt` to install dependencies.
+  Run `python urft_python_snippet.py` to reproduce the console output shown in the paper. Visualizations land in `urft_visualizations/`.
 
 ## Building the PDF Locally
 

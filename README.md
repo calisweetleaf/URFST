@@ -98,12 +98,6 @@ Additional internal theorems and Python implementations will be disclosed in fut
 - Sample operational logs demonstrating harmonic breath synchronization
 - GPG-signed hash manifest covering **all** files (public and private)
 
-**Staged Release (v2 - Planned):**
-
-- Full reference implementations (RENE/Rosemary codebases)
-- Backing theorems and extended mathematical frameworks
-- Available under NDA upon request: **<daeronblackfyre18@gmail.com>**
-
 This approach establishes temporal priority and cryptographic proof of possession for proprietary implementations while enabling peer review of theoretical foundations.
 
 ---
@@ -111,7 +105,7 @@ This approach establishes temporal priority and cryptographic proof of possessio
 ## Contact & Citation
 
 **Author:** Christian Trey Rowell (Daeron Blackfyre)  
-**Email:** <daeronblackfyre18@gmail.com>  
+**Email:** <treyrowell1826@gmail>  
 **ORCID:** [0009-0008-6550-6316](https://orcid.org/0009-0008-6550-6316)
 
 **Citation:**

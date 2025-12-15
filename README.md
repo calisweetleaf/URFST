@@ -37,7 +37,7 @@ The repo is structured as provenance-first: every artifact is cryptographically 
 
 <https://github.com/calisweetleaf/recursive-categorical-framework>
 
-repository stack (BaseTensor, governance, eigenrecursion) but keeps the URFST reposutory license itself under CC BY-NC-ND 4.0 International. This is a Recursive Neural-Field Architecture. It is not structured like a neural network it uses tensors, forms a field, its recursively stable, and is a foundation architecture of an Auto Reflexive neural entity under the new Neuro Eigenrecursive Xenogenetic Unified Substrate. 
+This is a Recursive Neural-Field Architecture. It is not structured like a neural network it uses tensors, forms a field, its recursively stable, and is a foundation architecture of an Auto Reflexive neural entity under the new Neuro Eigenrecursive Xenogenetic Unified Substrate. 
 
   Files:
 
